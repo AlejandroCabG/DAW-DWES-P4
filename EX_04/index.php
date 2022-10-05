@@ -30,7 +30,7 @@ resultado:
     <br><br>
     Edad: <input type="number" name="edad" value="" placeholder="edad">
     <br><br>
-    Comentarios: <textarea name="comentario" rows="5" cols="40" placeholder="comentario"></textarea>
+    Comentarios: <textarea name="comentario" rows="5" cols="30" placeholder="comentario"></textarea>
     <br><br>
     Campo oculto: <input type="hidden" name="oculto" value="myPrueba" placeholder="oculto">
     <br><br>
@@ -81,7 +81,6 @@ resultado:
     if(isset($_POST['oculto'])){
         $oculto = $_POST['oculto'];
         echo 'El campo oculto es: '.$oculto;
-        echo $oculto;
         echo "<br>";
     }
     ?>
