@@ -1,6 +1,6 @@
 ### Ejercicio 4 
 
- Para poder crear un formulario (HTML) junto a PHP en el mismo documento añado 
+Para poder crear un formulario (HTML) junto a PHP en el mismo documento añado 
 el form action **htmlspecialchars** determino el método **POST**
 y el nombre _formulario_.
 Una vez definido el formulario, paso a crear cada etiqueta input de tipo text, para nombre y apellidos;
